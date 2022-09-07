@@ -127,7 +127,7 @@ int main()
       mini.pop();
    }
 
-   cout << " \n\n";
+   cout << " \n\nSET:";
 
    // SET - unordered set of unique elements
    // ELEMENTS ARE STORED IN SORTED ORDER
