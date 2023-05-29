@@ -7,7 +7,7 @@ int main()
    vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
    int n = v.size();
    // 0 if not found, 1 if found
-   cout << "Finding 5(1/0) :" << binary_search(v.begin(), v.end(), 5) << endl;
+   cout << "Finding 5(1-yes/0-no) :" << binary_search(v.begin(), v.end(), 5) << endl;
 
    // lower bound
    cout << "Lower bound of 6 : " << lower_bound(v.begin(), v.end(), 6) - v.begin() << endl;
